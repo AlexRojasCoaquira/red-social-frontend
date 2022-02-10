@@ -1,0 +1,49 @@
+.home{
+    
+    &__principal{
+        // height: 91vh;
+        // overflow-y: auto;
+        // border-left: 1px solid #dcdfe4;
+        // border-right: 1px solid #dcdfe4;
+        .post{
+            .title{
+                font-size: 0.75em !important;
+            }
+            .description{
+                font-size: 0.85em;
+                color: #aeb0b4;
+                margin-left: 15px;
+            }
+            .welcome{
+                font-size: 0.85em;
+                margin-left: 15px;
+                font-weight: 500;
+            }
+        }
+        .post-user{
+            .title{
+                line-height: 1.4;
+                // margin-left: 5px;
+                font-size: 0.75em !important;
+                font-weight: 600;
+                .name-user{
+                    // color: rgb(156, 24, 24);
+                }
+                .date{
+                    color: #aeb0b4;
+                    font-size: 0.8em;
+                }
+                .body-title{
+                    font-size: 2em;
+                    color: rgb(156, 24, 24);
+                }
+                .body-content{
+
+                }
+            }
+            .comment{
+                min-height: 60px;
+            }
+        }
+    }
+}
